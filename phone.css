@@ -1,0 +1,30 @@
+.phone {
+  width: 100%;
+  height: 50vh;
+  background-color: rgb(251 250 248);
+  display: flex;
+}
+
+.handy {
+  height: 100%;
+  width: 40%;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.phonetext {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 100%;
+  width: 60%;
+  flex-direction: column;
+  color: rgb(160 158 156);
+  justify-content: center;
+}
+
+.excellent {
+  color: rgb(85 83 82);
+  font-size: 170%;
+}

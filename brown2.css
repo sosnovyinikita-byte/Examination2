@@ -1,0 +1,80 @@
+.brown2 {
+  height: 25vh;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-image: linear-gradient(45deg, black, rgb(52 37 31), rgb(78 50 39));
+  align-items: center;
+  justify-content: center;
+  gap: 1%;
+}
+
+.pont {
+  height: 100%;
+  width: 8%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 4%;
+}
+
+.clients {
+  height: 25%;
+  width: 30%;
+  filter: brightness(0) saturate(100%) invert(83%) sepia(14%) saturate(432%)
+    hue-rotate(24deg) brightness(91%) contrast(95%);
+}
+
+.razmer {
+  font-size: 70%;
+  color: rgb(187 168 158);
+}
+
+.zyfra {
+  font-size: 200%;
+}
+
+.polosahaha {
+  height: 3px;
+  width: 25%;
+  background-color: white;
+  margin-top: 2%;
+}
+
+@media (max-width: 1310px) {
+  .pont {
+    width: 11%;
+  }
+}
+
+@media (max-width: 958px) {
+  .pont {
+    width: 13%;
+  }
+}
+
+@media (max-width: 815px) {
+  .pont {
+    width: 15%;
+  }
+}
+
+@media (max-width: 708px) {
+  .pont {
+    width: 40%;
+    height: 20%;
+  }
+
+  .brown2 {
+    height: 75vh;
+    flex-direction: column;
+  }
+}
+
+@media (max-height: 700px) {
+  .brown2 {
+    height: 80vh;
+  }
+}

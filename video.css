@@ -1,0 +1,73 @@
+@font-face {
+  font-family: Mont;
+  src: url(./fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: Open;
+  src: url(./fonts/OpenSans-Regular.ttf);
+}
+
+.video {
+  background-image: url(./img/desk.webp);
+  display: flex;
+  background-size: cover;
+  width: 100%;
+  height: 50vh;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4%;
+}
+
+.play {
+  height: 100%;
+  width: 100%;
+  transition: 300ms;
+}
+
+.play1 {
+  height: 10%;
+  width: 5%;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.527);
+  transition: 300ms;
+}
+
+.play1:hover {
+  height: 12%;
+  width: 7%;
+}
+
+.present {
+  font-size: 200%;
+}
+
+.time {
+  opacity: 0.7;
+}
+
+.present1 {
+  font-size: 200%;
+}
+
+.present2 {
+  display: none;
+}
+
+@media (max-width: 466px) {
+  .malo {
+    font-size: 90%;
+  }
+}
+
+@media (max-width: 422px) {
+  .present {
+    font-size: 150%;
+  }
+  .malo,
+  .malo1 {
+    font-size: 80%;
+  }
+}
